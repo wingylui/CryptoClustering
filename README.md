@@ -1,4 +1,4 @@
-## Module 19 Challenge: Unsupervised Learning
+# Module 19 Challenge: Unsupervised Learning
 ---
 
 <b>Programming language:</b> Python <br />
@@ -8,8 +8,11 @@
 
 ---
 
+## Summary 
 
+In this challenge, a model was builded to predict if cryptocurrencies are affected by 24-hour or 7-day price changes. The dataset consist of price change precentage of different crytocurrencies in different timepoints (24H, 7D, 14D, 30D, 60D, 200D and 1Y). To identify different cluster for cryptocurrencies, `StandardScaler` is used to scale the dataset and the number of clusters is identified using Elbow method. Lastly, different clusters of crytocurrencies were determined by using k-means clustering algorithm. 
 
+To reduce the number of input variables for the model, Principal Component Analysis (PCA) is utilized for dimensionality reduction. The clustering results of both models were compared and no difference was observed in original dataset and dimensionality reduced dataset.
 
 ---
 <b>Score for this assessment:</b> has not been graded yet <br />
